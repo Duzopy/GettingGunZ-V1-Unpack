@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT>Arial</DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.ghostgamers.net</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>https://ghostgamers.net/emblem/upload/</EMBLEM_URL>
+	<TEMBLEM_URL>https://ghostgamers.net/emblem/upload/</TEMBLEM_URL>
+
+	<CASHSHOP_URL>https://ghostgamers.net/</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>https://ghostgamers.net/</URL>
+	    <TITLE>GhostGunZ</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="13.89.244.72" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="13.89.244.72" />
+	</TLOCATORLIST>
+</XML>

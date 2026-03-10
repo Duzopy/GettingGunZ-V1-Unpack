@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML id="channel">
+	<DEFAULTCHANNELNAME name="Free Channel"/>
+	<DEFAULTRULENAME name="elite"/>
+
+
+	<CHANNEL name="Canal libre 1" maxplayers="200" rule="elite" levelmin='1' levelmax="99"/>
+    <CHANNEL name="Canal libre 2" maxplayers="200" rule="elite" levelmin='1' levelmax="99"/>
+	<CHANNEL name="Canal Principiante (LV 1-31)" maxplayers="200" rule="novice" levelmin='1' levelmax="31"/>
+	<CHANNEL name="Canal Intermedio  (LV 32-61)" maxplayers="200" rule="novice" levelmin='32' levelmax="61"/>
+	<CHANNEL name="Canal Experto (LV 62-99)" maxplayers="200" rule="elite" levelmin='62' levelmax="99"/>
+	<!--<CHANNEL name="Canal Libre 2" maxplayers="100" rule="elite"/>
+	<CHANNEL name="Canal para Chile" maxplayers="100" rule="elite"/>
+	<CHANNEL name="Canal para Venezuela" maxplayers="100" rule="elite"/>
+	<CHANNEL name="Canal para Argentina" maxplayers="100" rule="elite"/>
+	<CHANNEL name="Canal para Perú" maxplayers="100" rule="elite"/>
+	<CHANNEL name="Canal para España" maxplayers="100" rule="elite"/>-->
+	<CHANNEL name="Eventos" maxplayers="100" rule="elite"/>
+
+	
+	<CHANNEL name="Duel Tournament" maxplayers="100" rule="dueltournament" IsDuelTournament="true"/>
+	<CHANNEL name="Gladiator" maxplayers="100" rule="dueltournament" IsDuelTournament="true"/>
+
+</XML>

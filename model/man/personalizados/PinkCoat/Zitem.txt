@@ -1,0 +1,6 @@
+<ITEM id="6523505" name="Pink Coat male" mesh_name="eq_chest_pinkm" totalpoint="0" type="equip" res_sex="m" res_level="15" slot="chest" weight="5" bt_price="5000" hp="25" ap="25" maxwt="10" sf="0" fr="0" cr="0" pr="0" lr="0" color="#33FF33" desc="^2Pink Coat By ^1YamILa09." />
+ 
+
+
+
+No cambies nada de aca

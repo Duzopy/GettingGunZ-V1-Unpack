@@ -1,0 +1,5 @@
+WFog Enabled Device.
+device created.
+Video memory 894.500000 
+C:\Users\Ander-PC\Desktop\Nuevos Items\Man Dante\man_dante.elu mesh eq_head_dante node 1021 face 2 point -> physique 3 ∞≥ ¿ÃªÛ
+Cloth VertexBuffer is Released

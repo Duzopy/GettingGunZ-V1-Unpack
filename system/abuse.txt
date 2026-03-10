@@ -1,0 +1,16 @@
+1,negro
+2,maiet
+3,gunz
+4,duel
+5,admin
+6,developer
+7,operator
+8,manager
+9,moderator
+10,Enigma
+11,Universe
+12,Euro
+13,Ultra
+14,International
+15,Internacional
+END

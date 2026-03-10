@@ -1,0 +1,5 @@
+WFog Enabled Device.
+device created.
+Video memory 894.500000 
+C:\Users\Ander-PC\Desktop\HatsuneColores\MikuAmarillo\HatsuneMiku.elu mesh eq_chest_aiku node 7 face 1 point -> physique 3 개 이상
+C:\Users\Ander-PC\Desktop\HatsuneColores\MikuAmarillo\HatsuneMiku.elu mesh eq_legs_aiku node 20 face 1 point -> physique 3 개 이상

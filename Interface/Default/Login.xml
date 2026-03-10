@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="Login">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+<!--
+   Login  GhostGunz 
+   Last Update : 28.ENER.2017
+   Editor      : Kuroko
+-->
+
+
+<!-- marco genera : Login -->
+	<FRAME item="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	
+<!-- Picture : imagen de fondo-->
+	<PICTURE item="Login_BackgrdImg" parent="Login">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP></BITMAP>
+	</PICTURE>
+
+
+<!-- LABEL : Conexión -->
+	<LABEL item="Login_ConnectingMsg" parent="Login">
+		<FONT>FONTb11b</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>200</X>
+			<Y>490</Y>
+			<W>400</W>
+			<H>25</H>
+		</BOUNDS>
+		<STRETCH/>
+                <VISIBLE>false</VISIBLE>
+		<TEXT></TEXT>
+	</LABEL>
+
+
+<!-- 프레임 생성 : Changed login frame to 800x600 so it covers the screen. -->
+	<FRAME item="LoginFrame" parent="Login">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>800</W>
+			<H>600</H>
+		</BOUNDS>
+		<TITLEBAR>false</TITLEBAR>
+		<RESIZABLE>false</RESIZABLE>
+		<FOCUSABLE>false</FOCUSABLE>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	
+	
+		<!-- Picture : 패널 이미지 -->
+	<PICTURE item="Login_Panel_Image" parent="LoginFrame">
+		<BOUNDS>
+			<X>220</X> 
+			<Y>180</Y>
+			<W>351</W>
+			<H>300</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>PANEL_NEW.png</BITMAP>
+	</PICTURE>
+	
+	
+	<!-- SERVERVIEW : 서버 선택 -->
+	<SERVERVIEW item="SelectedServer" parent="LoginFrame">
+		<BOUNDS>
+			<X>233</X> <!-- 15 -->
+			<Y>449</Y> <!-- 57 -->
+			<W>540</W>
+			<H>160</H>
+		</BOUNDS>
+	</SERVERVIEW>
+	
+<!-- 아이디 입력 -->
+	<!-- Label : 아이디 -->
+<LABEL item="Label_ID" parent="LoginFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>328</X> 
+			<Y>292</Y>  
+			<W>90</W>
+			<H>18</H>
+		</BOUNDS>
+		<TEXT></TEXT>  
+		<VISIBLE>false</VISIBLE>
+	</LABEL>
+
+
+	<!-- Edit : 아이디 입력창 -->
+	<EDIT item="LoginID" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>227</X> <!-- 167 -->
+			<Y>306</Y> <!-- 223 -->
+			<W>335</W>
+			<H>26</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>
+
+
+<!-- 비밀번호 입력 -->
+	<!-- Label : 비밀번호 -->
+	<LABEL item="Label_Password" parent="LoginFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>441</X>
+			<Y>369</Y>
+			<W>150</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT> 
+		<VISIBLE>false</VISIBLE>
+	</LABEL>
+
+	<!-- Edit : 비밀번호 입력창 -->
+	<EDIT item="LoginPassword" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<PASSWORD>true</PASSWORD>
+		<BOUNDS>
+			<X>227</X> <!-- 167 -->
+			<Y>338</Y> <!-- 223 -->
+			<W>335</W>
+			<H>26</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>
+
+	<!-- REMEMBER PASSWORD -->
+	<LABEL item="Label_Password_Remember" parent="LoginFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>300</X>
+			<Y>130</Y>
+			<W>150</W>
+			<H>22</H>
+		</BOUNDS>
+		<TEXT>Remember Password</TEXT> <!-- TEMP -->
+		<VISIBLE>false</VISIBLE>
+	</LABEL>
+
+	
+	<!--<BUTTON item="LoginRememberPass" parent="LoginFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>275</X>
+			<Y>130</Y>
+			<W>130</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON> -->
+
+
+<!-- Label : 로그인 에러 -->
+	<LABEL item="LoginError" parent="LoginFrame">
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>0</G>
+			<B>0</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>13</X>
+			<Y>230</Y>
+			<W>200</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+	</LABEL>
+	
+	
+	
+<!-- 버튼 -->
+	<!-- Button : 로그인 버튼 -->
+	<BMBUTTON item="LoginOK" parent="LoginFrame">
+		<BOUNDS>
+			<X>227</X> <!-- 167 -->
+			<Y>371</Y> <!-- 223 -->
+			<W>337</W>
+			<H>30</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">INGRESAR.png</BITMAP>
+		<BITMAP type="over">INGRESAR_ON.png</BITMAP>
+		<BITMAP type="down">INGRESAR.png</BITMAP>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<FOCUSABLE>true</FOCUSABLE>
+	</BMBUTTON>
+
+
+<!-- BUTTON : 종료 버튼 -->
+	<BMBUTTON item="Exit" parent="LoginFrame">
+		<BOUNDS>
+			<X>227</X>
+			<Y>405</Y>
+			<W>337</W>
+			<H>30</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP type="up">SALIR_PG.png</BITMAP>
+		<BITMAP type="over">SALIR_PG_ON.png</BITMAP>
+		<BITMAP type="down">SALIR_PG.png</BITMAP>
+		<DEFAULTKEY>ESCAPE</DEFAULTKEY>
+		<CONFIRMMESSAGE>STR:UI_LOGIN_05</CONFIRMMESSAGE> <!-- Do you want to quit the game? -->
+		<FOCUSABLE>FALSE</FOCUSABLE>
+	</BMBUTTON>			
+	
+	
+<!-- 서버 IP 설정 -->
+	<!-- Label : 서버 IP -->
+	<!-- <LABEL item="LabelServerIP" parent="LoginFrame">
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>200</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>Debug Server</TEXT>
+		<VISIBLE>false</VISIBLE>
+	</LABEL>-->
+
+	<!-- Edit : IP 주소 입력창 -->
+	<!-- <EDIT item="ServerAddress" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>110</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>-->
+
+	<!-- Edit : IP 포트 입력창 -->
+	<!-- <EDIT item="ServerPort" parent="LoginFrame">
+		<EDITLOOK>NullEditLook</EDITLOOK>
+		<BOUNDS>
+			<X>500</X>
+			<Y>202</Y>
+			<W>45</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT></TEXT>
+		<VISIBLE>false</VISIBLE>
+	</EDIT>-->
+</XML>

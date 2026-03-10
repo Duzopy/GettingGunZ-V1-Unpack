@@ -1,0 +1,5 @@
+WFog Enabled Device.
+device created.
+Video memory 894.500000 
+Cloth VertexBuffer is Released
+Cloth VertexBuffer is Released

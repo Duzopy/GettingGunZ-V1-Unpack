@@ -1,0 +1,6 @@
+WFog Enabled Device.
+device created.
+Video memory 894.500000 
+C:\Users\Ander-PC\Desktop\Nuevos Items\Egyp\man_Egypt.elu mesh eq_chest_EgyptM node 37 face 2 point -> physique 3 개 이상
+C:\Users\Ander-PC\Desktop\Nuevos Items\Egyp\man_Egypt.elu mesh eq_head_EgyptM node 1 face 2 point -> physique 3 개 이상
+C:\Users\Ander-PC\Desktop\Nuevos Items\Egyp\man_Egypt.elu mesh eq_legs_EgyptM node 36 face 1 point -> physique 3 개 이상

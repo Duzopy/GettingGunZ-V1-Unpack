@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<SMOKE NAME="smk_st_04.elu" DIRECTION="-90" POWER="50.0" DELAY="20" SIZE="60.0" LIFE="0.900" TOGGLEMINTIME="5.0">	</SMOKE>
+</XML>
